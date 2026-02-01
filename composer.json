@@ -1,0 +1,31 @@
+{
+    "name": "rasmusgodske/godske-dev-rules",
+    "description": "Development convention rules for Claude Code - PHP, Laravel, Vue, TypeScript, Python, and more",
+    "keywords": ["claude", "claude-code", "rules", "conventions", "laravel", "vue", "python"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rasmus Godske"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/console": "^10.0|^11.0|^12.0",
+        "illuminate/filesystem": "^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RasmusGodske\\DevRules\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RasmusGodske\\DevRules\\DevRulesServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
