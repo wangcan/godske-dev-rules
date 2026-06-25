@@ -1,5 +1,5 @@
 {
-    "name": "rasmusgodske/godske-dev-rules",
+    "name": "wangcan/godske-dev-rules",
     "description": "Development convention rules for Claude Code - PHP, Laravel, Vue, TypeScript, Python, and more",
     "keywords": ["claude", "claude-code", "rules", "conventions", "laravel", "vue", "python"],
     "license": "MIT",
